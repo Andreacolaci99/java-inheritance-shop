@@ -38,6 +38,6 @@ public class Cuffie extends Prodotto {
     public String toString() {
         return "Il prodotto con codice " + getCodice() + " sono delle " + getNome() + " prodotte da " + getMarca() +
         " il loro prezzo è di " + getPrezzo() + " euro , l'iva applicata sul prodotto è di " + getIva() + " il loro colore è "
-        + getColore() + " e sono wireless : " + isSonoWireless() ;
+        + getColore() + " e  sono wireless " + isSonoWireless() + " o cablate " + isSonoCablate();
     }
 }

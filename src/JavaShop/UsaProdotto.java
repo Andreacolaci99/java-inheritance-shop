@@ -60,12 +60,21 @@ public class UsaProdotto {
         sony.setSonoWireless(false);
         sony.setSonoCablate(true);
 
+        
         System.out.println(iphone);
         System.out.println(lg);
         System.out.println(airPods);
-        System.out.println(samsung);
-        System.out.println(philips);
-        System.out.println(sony);
     }
     
+    public Smartphone getIphone(){
+        Smartphone iphone = new Smartphone(5739472);
+        
+        iphone.setNome("Iphone 16");
+        iphone.setMarca("Apple");
+        iphone.setPrezzo(999.99);
+        iphone.setIva(1.22);
+        iphone.setCodiceImei("IWAHXI9483");
+        iphone.setMemoria(128.0);
+        return iphone;
+    }
 }
